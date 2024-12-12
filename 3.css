@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    padding: 20px;
+    width: 33.3%;
+    height: 100vh;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.left h1,
+.middle h1,
+.right h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left p,
+.middle p,
+.right p {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.middle {
+    align-items: center;
+    width: 33.3%;
+    height: 100vh;
+    background-color: green;
+    color: aliceblue;
+    padding: 20px;
+
+}
+
+.right {
+    align-items: center;
+    width: 33.3%;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+
+}
